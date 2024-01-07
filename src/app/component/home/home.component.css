@@ -1,0 +1,106 @@
+/* home.component.css */
+
+.home-section {
+    background-color: #333333;
+  }
+  
+  .home-bg {
+    text-align: center;
+  }
+  
+  .display-center-div {
+    text-align: left;
+  }
+  
+  .txt-bg-in {
+    color: black;
+    font-size: 54px;
+  }
+  
+  .btn-bg-1 {
+    background-color: #1abc9c;
+    color: #fff;
+  }
+  
+  .img-set {
+    width: 100%;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .btn-call {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .home-info {
+    background-color: #13151a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .home-info h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  .home-info p {
+    color: gainsboro;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+  }
+  
+  .box-panel {
+    margin-bottom: 20px;
+  }
+  
+  .common-flip-style {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .box-front,
+  .box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .box-content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .box-content h1 {
+    font-size: 18px;
+  }
+  
+  .btn-car-selected {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-car-selected:hover {
+    background-color: #148f77;
+  }
+  
